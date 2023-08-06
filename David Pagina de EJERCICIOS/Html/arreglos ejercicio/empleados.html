@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vuelto</title>
+    <link rel="stylesheet" href="/Css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>PROMEDIO DE SUELDOS DE EMPLEADOS </h1>
+    </header>
+    <main>
+        <section class="container">
+          <form action="">
+             <label for="">
+                <input type="text" id="nombre" value="" placeholder="Ingrese un nombre">
+             </label>
+             <label for="">
+                <input type="number" id="valorHoras" value="" placeholder="Ingrese el valor por hora">
+             <label for="">
+                <input type="number" id="horas" value="" placeholder="Ingrese sus horas de trabajo">
+             </label>
+             <div class="botones">
+                <button type="button" class="btn-neon" onClick="arr.empleados()">Aceptar</button>
+                <button type="button" class="btn-neon" onClick="limpiar()">Limpiar</button>
+                <button type="button" class="btn-neon" onClick="numero.regresar()">Regresar</button>
+
+             </div>
+             <div id="resp">
+            
+             </div>
+          </form>
+ 
+        </section>
+      
+    </main>
+    <footer>
+        <h6>Todos los derechos reservados -  MARCOS DAVID-CRISTOFER LIBERIO-Francisco Ronquillo-MELANIE PINOS 23.</h6>
+    </footer>
+    <script>
+        function  limpiar(){
+            document.getElementById("nombre").value=" "
+            document.getElementById("valorHoras").value=" "
+            document.getElementById("horas").value=" "
+            document.getElementById("resp").textContent=" "
+        }
+    </script>
+    <script src="../../JavaScript/arreglos23.js" ></script>
+</body>
+</html>
